@@ -1,0 +1,153 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "features/test_amazon_app_appium.feature:3",
+      "name": "Skip sign on and check laptop",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/test_amazon_app_appium.feature:4",
+          "match": {
+            "arguments": [],
+            "location": "steps/test_amazon_app_appium_steps.py:27"
+          },
+          "name": "the Amazon app is launched",
+          "result": {
+            "duration": 25.08769416809082,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/test_amazon_app_appium.feature:5",
+          "match": {
+            "arguments": [],
+            "location": "steps/test_amazon_app_appium_steps.py:34"
+          },
+          "name": "I skip sign-in",
+          "result": {
+            "duration": 21.057170629501343,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/test_amazon_app_appium.feature:6",
+          "match": {
+            "arguments": [],
+            "location": "steps/test_amazon_app_appium_steps.py:39"
+          },
+          "name": "I dismiss the address change prompt",
+          "result": {
+            "duration": 0.1282038688659668,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/test_amazon_app_appium.feature:7",
+          "match": {
+            "arguments": [],
+            "location": "steps/test_amazon_app_appium_steps.py:43"
+          },
+          "name": "I navigate to the laptop section",
+          "result": {
+            "duration": 11.430253028869629,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/test_amazon_app_appium.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "steps/test_amazon_app_appium_steps.py:47"
+          },
+          "name": "I add the specified laptop to the cart",
+          "result": {
+            "duration": 1.4426672458648682,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "appium"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "features/test_amazon_app_appium.feature:19",
+      "name": "Skip sign on and search for a product -- @1.1 ",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/test_amazon_app_appium.feature:12",
+          "name": "the Amazon app is launched",
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/test_amazon_app_appium.feature:13",
+          "name": "I skip sign-in",
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/test_amazon_app_appium.feature:14",
+          "name": "I dismiss the address change prompt",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/test_amazon_app_appium.feature:15",
+          "name": "I search for \"hot wheels\" in search bar",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "appium1"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "features/test_amazon_app_appium.feature:22",
+      "name": "Load data from JSON",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/test_amazon_app_appium.feature:23",
+          "name": "I have JSON data",
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/test_amazon_app_appium.feature:24",
+          "name": "I am able access JSON data",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "readjson"
+      ],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/test_amazon_app_appium.feature:1",
+  "name": "Test Amazon App",
+  "status": "passed",
+  "tags": []
+}
+]
